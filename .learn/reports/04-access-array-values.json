@@ -1,0 +1,25 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTests": 2,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mYou should programmatically access the third element in the array developers and print it\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m      19 |     const file = fs.readFileSync(path.resolve(__dirname, '../../../app.js'), 'utf8');\u001b[22m\n\u001b[2m      20 |     const regex = /console\\.log\\s*\\(\\s*developers\\s*\\[\\s*2\\s*]\\s*\\)/gm\u001b[22m\n\u001b[2m    > 21 |     expect(regex.test(file.toString())).toBeTruthy();\u001b[22m\n\u001b[2m         |                                         ^\u001b[22m\n\u001b[2m      22 | })\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36m.learn/exercises/04-access-array-values/test.js\u001b[39m\u001b[0m\u001b[2m:21:41)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "You should have an array called developers",
+      "status": "passed"
+    },
+    {
+      "title": "Developers array should have the indicated elements",
+      "status": "passed"
+    },
+    {
+      "title": "You should programmatically access the third element in the array developers and print it",
+      "status": "failed"
+    }
+  ]
+}
